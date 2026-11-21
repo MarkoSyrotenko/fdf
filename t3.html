@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>the</title>
+</head>
+<body style="background-color: black;">
+    <script>
+        function combine(a,b,c)
+        {
+            a%=10;
+            b%=10;
+            c%=10;
+            return a*100+b*10+c;
+        }
+        let a = parseInt(prompt("enter digit 1"));
+        let b = parseInt(prompt("enter digit 2"));
+        let c = parseInt(prompt("enter digit 3"));
+        alert(combine(a,b,c));
+    </script>
+</body>
+</html>

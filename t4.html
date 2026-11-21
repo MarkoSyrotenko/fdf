@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>the</title>
+</head>
+<body style="background-color: black;">
+    <script>
+        function combine(a,b=a)
+        {
+            return a*b;
+        }
+        let a = parseInt(prompt("enter the length"));
+        let b = parseInt(prompt("enter the width"));
+        alert("square: "+ combine(a)+"\nrectangle: "+ combine(a,b));
+    </script>
+</body>
+</html>
